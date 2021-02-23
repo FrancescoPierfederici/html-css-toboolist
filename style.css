@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+header{
+    
+    height:80px;
+
+}
+.header-logo{
+    vertical-align: middle; 
+    margin-left: 5px;
+
+}
+.title-header{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
