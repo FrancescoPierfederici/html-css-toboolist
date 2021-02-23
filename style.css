@@ -1,19 +1,20 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+   background-color: rgba(211, 211, 211, 0.219); 
+
 }
 header{
-    
     height:70px;
-   
-
+    background-color: white;
 }
 .header-logo{
     vertical-align: middle; 
     margin-left: 5px;
-
 }
 .title-header{
     display: inline-block;
@@ -22,27 +23,130 @@ header{
 }
 
 main{
-    
-   
-    background-color:rgba(211, 211, 211, 0.452);
-    width:100%;
-    height: 1000px;
-    
-    
+    padding-top:40px;
+    height: 100%;
 }
 
-
-#container{
-    margin-left: 200px;
+#container{   
+    margin-left:auto;
+    margin-right:auto;
     width: 70%;
-    height: 450px;
-    background-color: white;
-    
+    height: 600px;
+    background-color: white;  
+}
+.button-1{
+    display: inline-block;
+    width:70px;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(72, 160, 243);
+    line-height:30px ;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+    margin-top:10px;   
+}
+.button-2{
+    display: inline-block;
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    line-height:30px ;
+    color:rgba(128, 128, 128, 0.342);
+    text-align: center;
+    font-size: 13px;  
    
-    
 }
 
+.line-breaker{
+    border:1px solid rgba(128, 128, 128, 0.055) ;
+    margin-top: 10px;
+}
 
+.container-margin{
+    margin-left:40px;
+    color: rgb(51, 43, 43);
+    margin-top: 20px;
+}
+ol{
+list-style: none;
+}
+.button-3{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(72, 160, 243);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
+.button-4{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(126, 19, 189);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
+.button-5 {
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(93, 202, 142);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
+.button-6{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(226, 156, 50);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
+.button-7{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(226, 50, 226);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
+.button-8{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    border-radius: 12px;
+    background-color: rgb(167, 221, 41);
+    line-height:25px ;
+    color:white;
+    text-align: center;
+    font-size: 11px;
+    margin-top:10px;   
+}
 
+.title-upcoming{
+    margin-bottom:20px;
+}
 
 
