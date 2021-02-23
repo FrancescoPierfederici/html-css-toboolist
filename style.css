@@ -2,11 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-
+    
 }
 header{
     
-    height:80px;
+    height:70px;
+   
 
 }
 .header-logo{
@@ -16,15 +17,30 @@ header{
 }
 .title-header{
     display: inline-block;
-    line-height: 80px;
+    line-height: 70px;
     vertical-align: middle;
 }
 
+main{
+    
+   
+    background-color:rgba(211, 211, 211, 0.452);
+    width:100%;
+    height: 1000px;
+    
+    
+}
 
 
-
-
-
+#container{
+    margin-left: 200px;
+    width: 70%;
+    height: 450px;
+    background-color: white;
+    
+   
+    
+}
 
 
 
